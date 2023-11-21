@@ -1,5 +1,7 @@
 <template>
-  <header class="bg-backgroundSecondary h-[7vh] flex justify-end items-center">
+  <header
+    class="bg-backgroundSecondary h-[7vh] w-full flex justify-end items-center fixed z-10"
+  >
     <NavigationLinks />
     <ContactLinks />
   </header>
