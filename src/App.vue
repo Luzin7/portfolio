@@ -7,7 +7,7 @@ import HeroContainer from './components/Hero/HeroContainer.vue';
 <template>
   <HeaderContainer />
   <main>
-  <AboutMe />
-  <HeroContainer />
-  <main />
+    <HeroContainer />
+    <AboutMe />
+  </main>
 </template>
