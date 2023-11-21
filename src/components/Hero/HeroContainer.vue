@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-backgroundSecondary min-h-[93vh] mx-auto flex flex-col justify-center"
+    class="bg-backgroundSecondary min-h-screen mx-auto flex flex-col justify-center"
   >
     <div class="flex flex-col items-center justify-center">
       <h1 class="text-3xl md:text-5xl font-bold text-white text-center">
