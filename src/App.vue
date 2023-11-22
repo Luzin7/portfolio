@@ -2,6 +2,7 @@
 import AboutMe from './components/AboutMe/AboutMe.vue';
 import HeaderContainer from './components/Header/HeaderContainer.vue';
 import HeroContainer from './components/Hero/HeroContainer.vue';
+import MyProjects from './components/Projects/MyProjects.vue';
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import HeroContainer from './components/Hero/HeroContainer.vue';
   <main>
     <HeroContainer />
     <AboutMe />
+    <MyProjects />
   </main>
 </template>
