@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-backgroundDefault">
+  <footer class="bg-backgroundDefault border-t border-backgroundSecondary">
     <div
       class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
     >
