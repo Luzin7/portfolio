@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-backgroundDefault min-h-[43vh] flex flex-col items-center justify-center"
+    class="bg-backgroundDefault min-h-[73vh] flex flex-col items-center justify-center"
   >
     <div class="container">
       <div class="grid grid-cols-1 lg:grid-cols-2">

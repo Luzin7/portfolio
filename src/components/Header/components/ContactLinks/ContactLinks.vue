@@ -7,8 +7,8 @@
           target="_blank"
           rel="noopener noreferrer"
           class="hover:text-accent transition-colors"
-          >Github Icon</a
-        >
+          ><Icon icon="mdi:linkedin" class="text-4xl xl:text-3xl"
+        /></a>
       </li>
       <li>
         <a
@@ -16,11 +16,13 @@
           target="_blank"
           rel="noopener noreferrer"
           class="hover:text-accent transition-colors"
-          >Linkedin Icon</a
-        >
+          ><Icon icon="mdi:github" class="text-4xl xl:text-3xl"
+        /></a>
       </li>
     </ul>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { Icon } from '@iconify/vue';
+</script>
