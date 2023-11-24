@@ -4,6 +4,7 @@ import HeaderContainer from './components/Header/HeaderContainer.vue';
 import FooterContainer from './components/Footer/FooterContainer.vue';
 import HeroContainer from './components/Hero/HeroContainer.vue';
 import MyProjects from './components/Projects/MyProjects.vue';
+import FormContainer from './components/Form/FormContainer.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import MyProjects from './components/Projects/MyProjects.vue';
     <HeroContainer />
     <AboutMe />
     <MyProjects />
+    <FormContainer />
   </main>
   <FooterContainer />
 </template>
