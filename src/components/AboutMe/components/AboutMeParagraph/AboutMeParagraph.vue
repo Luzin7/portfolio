@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center gap-4">
     <h2 class="font-bold text-3xl md:text-4xl">Sobre mim</h2>
-    <p class="px-4 md:px-10 lg:mb-0">
+    <p class="px-4 md:px-10 mb-7">
       Apaixonado por jogos, meu pernambuco, pelo filme Ratatouille e viciado em
       usar a gíria "tá ligado", sou um desenvolvedor de software focado em
       automatizar processos e entregar soluções eficientes.
