@@ -14,7 +14,11 @@
           construir algo incrível.
         </p>
       </div>
-      <form class="flex flex-col gap-5" :action="actionApiKey" method="POST">
+      <form
+        class="flex flex-col gap-5"
+        action="https://formsubmit.co/cb7a6e4be8889fe5dd61076026960c4c"
+        method="POST"
+      >
         <input
           type="text"
           placeholder="Seu nome"
