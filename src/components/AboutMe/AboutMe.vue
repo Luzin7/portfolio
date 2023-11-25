@@ -1,5 +1,6 @@
 <template>
   <section
+    id="about_me"
     class="bg-backgroundDefault min-h-[73vh] flex flex-col items-center justify-center"
   >
     <div class="container">
@@ -9,9 +10,7 @@
       </div>
     </div>
   </section>
-  <section
-    class="bg-backgroundDefault min-h-[20vh] flex flex-col items-center justify-center"
-  >
+  <section class="bg-backgroundDefault min-h-[30vh] flex flex-col items-center">
     <div class="container">
       <h3 class="text-center font-bold text-4xl mb-4">Línguas</h3>
       <div class="lg:w-2/5 xl:w-1/4 mx-auto flex justify-evenly">
