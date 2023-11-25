@@ -1,7 +1,7 @@
 <template>
   <section
     id="about_me"
-    class="bg-backgroundDefault min-h-[73vh] flex flex-col items-center justify-center"
+    class="bg-backgroundDefault max-sm:py-7 min-h-[73vh] flex flex-col items-center justify-center"
   >
     <div class="container">
       <div class="grid grid-cols-1 lg:grid-cols-2">
