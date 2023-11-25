@@ -1,20 +1,39 @@
 <template>
   <nav>
     <ul class="flex gap-7">
-      <li>
-        <a href="#" class="hover:text-accent transition-colors">Início</a>
+      <li
+        class="hover:text-accent transition-colors cursor-pointer"
+        @click="() => scrollToSection('home')"
+      >
+        Início
       </li>
-      <li>
-        <a href="#" class="hover:text-accent transition-colors">Sobre mim</a>
+      <li
+        class="hover:text-accent transition-colors cursor-pointer"
+        @click="() => scrollToSection('about_me')"
+      >
+        Sobre mim
       </li>
-      <li>
-        <a href="#" class="hover:text-accent transition-colors">Projetos</a>
+      <li
+        class="hover:text-accent transition-colors cursor-pointer"
+        @click="() => scrollToSection('projects')"
+      >
+        Projetos
       </li>
-      <li>
-        <a href="#" class="hover:text-accent transition-colors">Contato</a>
+      <li
+        class="hover:text-accent transition-colors cursor-pointer"
+        @click="() => scrollToSection('contact')"
+      >
+        Contato
       </li>
     </ul>
   </nav>
 </template>
 
-<script setup></script>
+<script setup>
+function scrollToSection(sectionId) {
+  var section = document.getElementById(sectionId);
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+</script>
