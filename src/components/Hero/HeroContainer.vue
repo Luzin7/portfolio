@@ -1,5 +1,6 @@
 <template>
   <section
+    id="home"
     class="bg-backgroundSecondary min-h-screen mx-auto flex flex-col justify-center"
   >
     <div class="flex flex-col items-center justify-center">
@@ -16,12 +17,16 @@
       </p>
     </div>
     <MoreContent />
-    <div class="absolute bottom-10 animate-bounce">
-      <span>Icone rolar para baixo</span>
+    <div class="absolute bottom-10 right-2/4 animate-bounce">
+      <Icon
+        icon="material-symbols-light:expand-more-rounded"
+        class="text-4xl"
+      />
     </div>
   </section>
 </template>
 
 <script setup>
+import { Icon } from '@iconify/vue';
 import MoreContent from './components/MoreContent/MoreContent.vue';
 </script>
