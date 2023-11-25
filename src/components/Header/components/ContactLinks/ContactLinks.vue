@@ -3,7 +3,7 @@
     <ul class="flex gap-7 border-l px-7 ml-7">
       <li>
         <a
-          href="#"
+          :href="linkedin"
           target="_blank"
           rel="noopener noreferrer"
           class="hover:text-accent transition-colors"
@@ -12,7 +12,7 @@
       </li>
       <li>
         <a
-          href="#"
+          :href="github"
           target="_blank"
           rel="noopener noreferrer"
           class="hover:text-accent transition-colors"
@@ -25,4 +25,5 @@
 
 <script setup>
 import { Icon } from '@iconify/vue';
+import { github, linkedin } from '../../../../utils/socials';
 </script>
