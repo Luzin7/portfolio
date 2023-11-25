@@ -1,5 +1,8 @@
 <template>
-  <section class="min-h-screen mx-auto flex flex-col justify-center">
+  <section
+    id="contact"
+    class="min-h-screen mx-auto flex flex-col justify-center"
+  >
     <div
       class="bg-backgroundDefault md:mx-auto md:w-3/4 xl:w-2/4 p-4 rounded-md"
     >
