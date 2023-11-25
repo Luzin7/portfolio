@@ -18,10 +18,12 @@
         <div
           class="flex flex-col justify-center items-center absolute gap-4 cursor-default"
         >
-          <h1 class="text-5xl font-bold text-center">
+          <h1 class="text-4xl md:text-5xl font-bold text-center">
             {{ project.name }}
           </h1>
-          <p class="text-center xl:w-2/4 font-medium cursor-default">
+          <p
+            class="max-sm:text-sm text-center max-sm:w-3/4 xl:w-2/4 font-medium cursor-default"
+          >
             {{ project.description }}
           </p>
           <a

@@ -17,10 +17,10 @@
       </p>
     </div>
     <MoreContent />
-    <div class="absolute bottom-10 right-2/4 animate-bounce">
+    <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2">
       <Icon
         icon="material-symbols-light:expand-more-rounded"
-        class="text-4xl"
+        class="animate-bounce text-4xl"
       />
     </div>
   </section>

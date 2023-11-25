@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="max-md:hidden">
     <ul class="flex gap-7 border-l px-7 ml-7">
       <li>
         <a
