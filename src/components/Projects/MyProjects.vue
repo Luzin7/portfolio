@@ -1,5 +1,8 @@
 <template>
-  <section class="bg-backgroundSecondary h-[40vh] flex flex-col justify-center">
+  <section
+    id="projects"
+    class="bg-backgroundSecondary h-[50vh] flex flex-col justify-center"
+  >
     <carousel
       :items-to-show="1"
       wrapAround="true"
