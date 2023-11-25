@@ -15,5 +15,5 @@ import ContactForm from './components/ContactForm/ContactForm.vue';
     <MyProjects />
     <ContactForm />
   </main>
-  <FooterContainer />
+  <FooterContainer class="max-sm:pb-12" />
 </template>
