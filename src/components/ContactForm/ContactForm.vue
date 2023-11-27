@@ -24,6 +24,7 @@
           placeholder="Seu nome"
           class="px-4 py-4 rounded-md outline-none ring-1 ring-transparent focus:ring-primary transition-all"
           name="name"
+          minlength="4"
           required
         />
         <input
@@ -31,14 +32,16 @@
           placeholder="Seu e-mail"
           class="px-4 py-4 rounded-md outline-none ring-1 ring-transparent focus:ring-primary transition-all"
           name="email"
+          minlength="7"
           required
         />
         <textarea
           placeholder="Sua mensagem"
-          cols="30"
-          rows="10"
+          cols="20"
+          rows="7"
           class="p-4 rounded-md outline-none ring-1 ring-transparent focus:ring-primary transition-all"
           name="message"
+          minlength="10"
           required
         ></textarea>
         <button
@@ -52,6 +55,4 @@
   </section>
 </template>
 
-<script setup>
-import { actionApiKey } from '../../env/formSubmit';
-</script>
+<script setup></script>
