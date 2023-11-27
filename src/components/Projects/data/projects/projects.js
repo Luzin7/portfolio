@@ -14,7 +14,7 @@ export const projects = [
   {
     media: cenaestelarImg,
     name: 'Cena Estelar',
-    link: 'https://cenaestelar.netlify.app/de',
+    link: 'https://cenaestelar.netlify.app/',
     description: `Um projeto em desenvolvimento de filmes que assisti com meus
      amigos. Junto aos títulos, adicionamos nossas opiniões, média de notas e disponibilzamos 
      uma seção de filmes que pretendemos assistir.`,
