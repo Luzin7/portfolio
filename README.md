@@ -3,7 +3,7 @@
   <a href="https://lvictor-portfolio.vercel.app/" target="_blank">Confira!</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./src/assets/images/readme/demo.png" />
+  <img alt="Demo" src="./src/assets/images/readme/demo.gif" />
 </div>
 
 <br/>
