@@ -7,7 +7,7 @@
   --background-secondary: #202024;
   --text: #ffffffde;
   --primary: #612FB7;
-  --accent: #8257E5;
+  --accent: #632EDB;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
@@ -22,16 +22,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+button{
+  transition: all 150ms;
+}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+button:hover{
+  background: var(--primary);
 }
