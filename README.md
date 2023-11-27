@@ -8,8 +8,6 @@
 
 <br/>
 
-## Desenvolvido Com
-
 <a href="https://lvictor-portfolio.vercel.app/" target="_blank">Meu portfólio pessoal</a>, que reúne informações sobre quem sou e o que faço. Nele será possível saber mais sobre mim e visualizar alguns projetos que acho válido destacar.<br/>
 
 Este projeto foi desenvolvido utilizando Vue.js e Tailwind Css.
