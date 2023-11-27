@@ -5,7 +5,7 @@
   >
     <carousel
       :items-to-show="1"
-      wrapAround="true"
+      :wrapAround="true"
       class="w-full h-[40vh] overflow-hidden"
     >
       <slide v-for="project in projects" :key="project.name" class="h-[40vh]">
@@ -13,6 +13,8 @@
           <img
             :src="project.media"
             class="w-full h-full object-cover blur-sm opacity-10"
+            loading="lazy"
+            :alt="`project ${project.name} screenshot`"
           />
         </div>
         <div
@@ -31,14 +33,15 @@
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="bg-accent py-2 px-7 rounded-md font-bold mt-4"
+            class="bg-accent hover:bg-primary py-2 px-7 rounded-md font-bold mt-4 transition-all"
+            :aria-label="`Link para acessar o projeto ${project.name}. Confira`"
           >
             Confira
           </a>
         </div>
       </slide>
       <template #addons>
-        <navigation />
+        <navigation aria-label="Botão de navegação do carrossel" />
       </template>
     </carousel>
   </section>
