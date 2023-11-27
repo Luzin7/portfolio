@@ -14,18 +14,7 @@
     <div class="container">
       <h3 class="text-center font-bold text-4xl mb-4">Línguas</h3>
       <div class="lg:w-2/5 xl:w-1/4 mx-auto flex justify-evenly">
-        <Icon
-          icon="twemoji:flag-united-states"
-          class="bg-backgroundSecondary border border-primary p-2 rounded-md text-5xl lg:text-7xl"
-        />
-        <Icon
-          icon="twemoji:flag-brazil"
-          class="bg-backgroundSecondary border border-primary p-2 rounded-md text-6xl lg:text-8xl"
-        />
-        <Icon
-          icon="twemoji:flag-france"
-          class="bg-backgroundSecondary border border-primary p-2 rounded-md text-5xl lg:text-7xl"
-        />
+        <CountryFlagIcons />
       </div>
     </div>
   </section>
@@ -33,6 +22,6 @@
 
 <script setup>
 import AboutMeParagraph from './components/AboutMeParagraph/AboutMeParagraph.vue';
-import { Icon } from '@iconify/vue';
+import CountryFlagIcons from './components/CountryFlagIcons/CountryFlagIcons.vue';
 import MyCoreSkills from './components/MyCoreSkills/MyCoreSkills.vue';
 </script>
