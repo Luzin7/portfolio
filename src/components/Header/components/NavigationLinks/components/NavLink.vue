@@ -4,7 +4,9 @@
     :aria-label="`Vá para a seção ${text}`"
     @click="() => scrollToSection(sectionToScroll)"
   >
-    {{ text }}
+    <button type="button" class="hover:bg-transparent">
+      {{ text }}
+    </button>
   </li>
 </template>
 
