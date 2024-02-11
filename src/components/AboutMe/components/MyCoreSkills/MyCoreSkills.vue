@@ -2,7 +2,9 @@
   <div class="flex flex-col items-center">
     <h2 class="font-bold text-3xl max-[360px]:text-2xl md:text-4xl mb-4">
       Principais conhecimentos
-      <span class="text-base block text-center">(mas não os únicos)</span>
+      <span class="text-base block text-center font-medium"
+        >(mas não os únicos)</span
+      >
     </h2>
     <ul
       class="lg:w-4/6 flex flex-wrap justify-center text-center mx-auto gap-7"
