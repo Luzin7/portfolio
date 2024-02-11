@@ -9,7 +9,7 @@
       class="w-full h-[40vh] overflow-hidden"
     >
       <slide v-for="project in projects" :key="project.name" class="h-[40vh]">
-        <div class="h-full w-full relative">
+        <div v-if="project.media !== null" class="h-full w-full relative">
           <img
             :src="project.media"
             class="w-full h-full object-cover blur-sm opacity-10"
