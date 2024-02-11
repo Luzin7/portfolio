@@ -5,7 +5,7 @@
     >
       <span
         class="text-sm max-sm:flex max-sm:items-center max-sm:justify-center"
-        >Copyright &copy; {{ currentYear }} -
+        >&copy; {{ currentYear }} -
         <a href="https://lvictor-portfolio.vercel.app/" class="underline"
           >Luan Victor</a
         >
