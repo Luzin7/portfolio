@@ -27,6 +27,14 @@ export const projects = [
   },
   {
     media: null,
+    name: 'Confectus',
+    link: 'https://www.npmjs.com/package/confectus',
+    description: `Sua solução de linha de comando para configuração de ambientes de desenvolvimento de forma rápida e fácil.
+    Especialmente projetado para simplificar o processo em projetos backend de JavaScript e TypeScript.
+    Simplifique sua vida de desenvolvedor e concentre-se no que realmente importa: criar código incrível!`,
+  },
+  {
+    media: null,
     name: 'Em breve',
     link: null,
     description: 'Estou trabalhando em um produto ainda melhor!',
