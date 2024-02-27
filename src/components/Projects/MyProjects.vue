@@ -1,7 +1,7 @@
 <template>
   <section
     id="projects"
-    class="bg-backgroundSecondary h-[50vh] flex flex-col justify-center"
+    class="bg-backgroundSecondary w-full h-[50vh] flex flex-col justify-center cursor-grab"
   >
     <carousel
       :items-to-show="1"
@@ -48,7 +48,7 @@
 </template>
 
 <script setup>
+import { Carousel, Navigation, Slide } from 'vue3-carousel';
 import 'vue3-carousel/dist/carousel.css';
-import { Carousel, Slide, Navigation } from 'vue3-carousel';
 import { projects } from './data/projects/projects';
 </script>
