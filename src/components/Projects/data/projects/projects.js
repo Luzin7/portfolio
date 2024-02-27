@@ -1,7 +1,6 @@
-import devorumImg from '../../../../assets/images/projects/devorum/devorum.png';
 import cenaestelarImg from '../../../../assets/images/projects/cenaestelar/cenaestelar.png';
+import devorumImg from '../../../../assets/images/projects/devorum/devorum.png';
 import skycastImg from '../../../../assets/images/projects/skycast/skycast.png';
-
 export const projects = [
   {
     media: devorumImg,
