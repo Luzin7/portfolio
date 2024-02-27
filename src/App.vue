@@ -1,18 +1,10 @@
 <script setup>
 import { defineAsyncComponent } from 'vue';
+import HeaderContainer from './components/Header/HeaderContainer.vue';
+import HeroContainer from './components/Hero/HeroContainer.vue';
+import AboutMe from './components/AboutMe/AboutMe.vue';
+import FooterContainer from './components/Footer/FooterContainer.vue';
 
-const AboutMe = defineAsyncComponent(
-  () => import('./components/AboutMe/AboutMe.vue'),
-);
-const HeaderContainer = defineAsyncComponent(
-  () => import('./components/Header/HeaderContainer.vue'),
-);
-const FooterContainer = defineAsyncComponent(
-  () => import('./components/Footer/FooterContainer.vue'),
-);
-const HeroContainer = defineAsyncComponent(
-  () => import('./components/Hero/HeroContainer.vue'),
-);
 const MyProjects = defineAsyncComponent(
   () => import('./components/Projects/MyProjects.vue'),
 );
