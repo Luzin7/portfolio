@@ -19,13 +19,14 @@
           socialName="linkedin"
         />
         <SocialLink :href="github" icon="mdi:github" socialName="github" />
+        <SocialLink :href="youtube" icon="mdi:youtube" socialName="youtube" />
       </ul>
     </div>
   </footer>
 </template>
 
 <script setup>
-import { github, linkedin } from '../../utils/socials';
 import { currentYear } from '../../utils/getYear';
+import { github, linkedin, youtube } from '../../utils/socials';
 import SocialLink from '../SocialLink/SocialLink.vue';
 </script>
