@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>Victor logo</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #121214 } 
+		.s1 { fill: #612fb7 } 
+	</style>
+	<path id="Background" class="s0" d="m400 800c-221.2 0-400-178.8-400-400 0-221.2 178.8-400 400-400 221.2 0 400 178.8 400 400 0 221.2-178.8 400-400 400z"/>
+	<path id="Camada 1" class="s1" d="m149.7 148.9l221.2 103.1 278.8 398.2-221.2-103.1z"/>
+</svg>
