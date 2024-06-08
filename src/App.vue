@@ -17,10 +17,10 @@ const ContactForm = defineAsyncComponent(
 
 <template>
   <HeaderContainer />
-  <main>
+  <main class="container mx-auto">
     <HeroContainer />
     <AboutMe />
-    <MyProjects />
+    <MyProjects /> 
     <ContactForm />
   </main>
   <FooterContainer class="max-sm:pb-12" />

@@ -1,7 +1,7 @@
 <template>
   <section
     id="home"
-    class="bg-backgroundSecondary min-h-screen mx-auto flex flex-col justify-center"
+    class="bg-background min-h-screen max-w-[90%] mx-auto flex flex-col justify-center gap-8"
   >
     <PresentationComponent />
     <ContactButton />

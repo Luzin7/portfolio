@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-backgroundSecondary max-md:bottom-0 flex items-center justify-center w-full h-[7vh] md:justify-end fixed z-10"
+    class="bg-background max-md:bottom-0 flex items-center justify-center w-full h-[7vh] md:justify-end fixed z-10"
   >
     <NavigationLinks />
     <ContactLinks />

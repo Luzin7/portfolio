@@ -1,8 +1,8 @@
 <template>
-  <div class="mx-auto mt-5">
+  <div class="mx-auto">
     <button
       type="button"
-      class="bg-accent py-3.5 px-9 rounded-md font-bold"
+      class="bg-accent py-4 px-5 rounded-xl font-medium"
       @click="() => scrollToSection('contact')"
     >
       Entre em contato

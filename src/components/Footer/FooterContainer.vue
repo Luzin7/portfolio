@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-backgroundDefault border-t border-backgroundSecondary">
+  <footer class="bg-background border-t border-backgroundForeground">
     <div
       class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between"
     >
@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import { currentYear } from '../../utils/getYear';
-import { github, linkedin, youtube } from '../../utils/socials';
-import SocialLink from '../SocialLink/SocialLink.vue';
+import { currentYear } from "../../utils/getYear";
+import { github, linkedin, youtube } from "../../utils/socials";
+import SocialLink from "../SocialLink/SocialLink.vue";
 </script>
