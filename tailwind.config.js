@@ -4,11 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        backgroundDefault: 'var(--background-default)',
-        backgroundSecondary: 'var(--background-secondary)',
+        background: 'var(--background)',
+        backgroundForeground: 'var(--background-foreground)',
         text: 'var(--text)',
+        textSecondary: 'var(--text-secondary)',
         primary: 'var(--primary)',
+        primaryForeground: 'var(--primary-foreground)',
+        secondary: 'var(--secondary)',
+        secondaryForeground: 'var(--secondary-foreground)',
         accent: 'var(--accent)',
+        accentForeground: 'var(--accent-foreground)',
       },
     },
   },
