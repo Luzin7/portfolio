@@ -3,17 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background-default: #121214;
-  --background-secondary: #202024;
-  --text: #ffffffde;
-  --primary: #612FB7;
-  --accent: #632EDB;
+    --background: #020202;
+    --background-foreground: #1b1b1b;
+
+    --primary: #612FB7;
+    --primary-foreground: #7144be;
+
+    --secondary: #31185c;
+    --secondary-foreground: #462f6c;
+
+    --accent: #632EDB;
+    --accent-foreground: #7343df;
+    
+    --text: #ffffff;
+    --text-secondary: #e6e6e6;
 
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
-  color: #ffffffde;
-  background-color: var(--background-default);
+  color: var(--text);
+  background-color: var(--background);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,4 +37,9 @@ button{
 
 button:hover{
   background: var(--primary);
+}
+
+.carousel__icon{
+  fill: var(--primary) !important;
+  border-radius: 7px;
 }
