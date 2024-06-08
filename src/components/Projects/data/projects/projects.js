@@ -1,6 +1,5 @@
 import cenaestelarImg from '../../../../assets/images/projects/cenaestelar/cenaestelar.png';
 import devorumImg from '../../../../assets/images/projects/devorum/devorum.png';
-import skycastImg from '../../../../assets/images/projects/skycast/skycast.png';
 export const projects = [
   {
     media: devorumImg,
@@ -17,12 +16,6 @@ export const projects = [
     description: `Um projeto em desenvolvimento de filmes que assisti com meus
      amigos. Junto aos títulos, adicionamos nossas opiniões, média de notas e disponibilzamos 
      uma seção de filmes que pretendemos assistir.`,
-  },
-  {
-    media: skycastImg,
-    name: 'SkyCast',
-    link: 'https://luzin7.github.io/skycast/',
-    description: `Uma aplicação web para visualização de informações climáticas em tempo real. `,
   },
   {
     media: null,
