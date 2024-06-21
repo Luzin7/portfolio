@@ -4,6 +4,7 @@ export const projects = [
   {
     media: devorumImg,
     name: 'Devorum',
+    type: "Projeto Pessoal",
     link: 'https://devorum.vercel.app/',
     description: `Uma plataforma de perguntas e respostas para atender às necessidades de
     quem precisa. A plataforma permite que façam perguntas, obtenham ajuda
@@ -12,6 +13,7 @@ export const projects = [
   {
     media: cenaestelarImg,
     name: 'Cena Estelar',
+    type: "Projeto Pessoal",
     link: 'https://cenaestelar.netlify.app/',
     description: `Um projeto em desenvolvimento de filmes que assisti com meus
      amigos. Junto aos títulos, adicionamos nossas opiniões, média de notas e disponibilzamos 
@@ -20,10 +22,10 @@ export const projects = [
   {
     media: null,
     name: 'Confectus',
+    type: "Projeto Pessoal",
     link: 'https://www.npmjs.com/package/confectus',
     description: `Sua solução de linha de comando para configuração de ambientes de desenvolvimento de forma rápida e fácil.
-    Especialmente projetado para simplificar o processo em projetos backend de JavaScript e TypeScript.
-    Simplifique sua vida de desenvolvedor e concentre-se no que realmente importa: criar código incrível!`,
+    Especialmente projetado para simplificar o processo em projetos backend de JavaScript e TypeScript.`,
   },
   {
     media: null,

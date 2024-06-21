@@ -1,6 +1,6 @@
 <template>
   <li
-    class="hover:text-accent transition-colors cursor-pointer"
+    class="hover:text-primary transition-colors cursor-pointer"
     :aria-label="`Vá para a seção ${text}`"
     @click="() => scrollToSection(sectionToScroll)"
   >

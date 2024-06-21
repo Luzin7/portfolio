@@ -1,30 +1,31 @@
 <template>
   <section
     id="projects"
-    class="bg-backgroundSecondary w-full h-[50vh] flex flex-col justify-center cursor-grab"
+    class="bg-backgroundSecondary flex flex-col justify-center cursor-grab"
   >
-    <carousel
-      :items-to-show="1"
-      :wrapAround="true"
-      class="w-full h-[40vh] overflow-hidden"
-    >
-      <slide v-for="project in projects" :key="project.name" class="h-[40vh]">
-        <div v-if="project.media !== null" class="h-full w-full relative">
-          <img
-            :src="project.media"
-            class="w-full h-full object-cover blur-sm opacity-10"
-            loading="lazy"
-            :alt="`project ${project.name} screenshot`"
-          />
-        </div>
-        <div
-          class="flex flex-col justify-center items-center absolute gap-4 cursor-default"
-        >
-          <h1 class="text-4xl md:text-5xl font-bold text-center">
+  <carousel
+  :items-to-show="1"
+  :wrapAround="true"
+  class=" rounded-lg"
+  >
+  <slide v-for="project in projects" :key="project.name" class="h-[40vh]">
+    <div v-if="project.media !== null" class="h-full w-full relative">
+      <img
+      :src="project.media"
+      class="w-full h-full object-cover blur-sm opacity-10"
+      loading="lazy"
+      :alt="`project ${project.name} screenshot`"
+      />
+      </div>
+      <div
+      class="flex flex-col justify-center items-center absolute gap-4 cursor-default"
+      >
+      <p class="text-sm font-medium leading-none pb-2 text-textSecondary opacity-50">{{ project.type }}</p>
+          <h1 class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
             {{ project.name }}
           </h1>
           <p
-            class="max-sm:text-sm text-center max-sm:w-3/4 xl:w-2/4 font-medium cursor-default"
+            class="max-sm:text-sm text-center max-sm:w-3/4 xl:w-2/4 leading-7  cursor-default"
           >
             {{ project.description }}
           </p>
@@ -33,7 +34,7 @@
             :href="project.link"
             target="_blank"
             rel="noopener noreferrer"
-            class="bg-accent hover:bg-primary py-2 px-7 rounded-md font-bold mt-4 transition-all"
+            class="bg-primary hover:bg-accent py-2 px-7 rounded-md font-bold mt-4 transition-all"
             :aria-label="`Link para acessar o projeto ${project.name}. Confira`"
           >
             Confira
@@ -41,7 +42,7 @@
         </div>
       </slide>
       <template #addons>
-        <navigation aria-label="Botão de navegação do carrossel" />
+        <navigation aria-label="Botão de navegação do carrossel"/>
       </template>
     </carousel>
   </section>
