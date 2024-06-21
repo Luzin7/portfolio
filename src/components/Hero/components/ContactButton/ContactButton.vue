@@ -2,7 +2,7 @@
   <div class="mx-auto">
     <button
       type="button"
-      class="bg-accent py-4 px-5 rounded-xl font-medium"
+      class="border border-primary py-4 px-5 rounded-lg font-medium"
       @click="() => scrollToSection('contact')"
     >
       Entre em contato
