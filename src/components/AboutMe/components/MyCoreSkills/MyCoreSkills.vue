@@ -1,27 +1,23 @@
 <template>
-  <div class="flex flex-col items-center">
-    <h2 class="font-bold text-3xl max-[360px]:text-2xl md:text-4xl mb-4">
-      Principais conhecimentos
-      <span class="text-base block text-center font-medium"
-        >(mas não os únicos)</span
-      >
-    </h2>
-    <ul
-      class="lg:w-4/6 flex flex-wrap justify-center text-center mx-auto gap-7"
-    >
+  <div class="flex flex-col">
+    <ul class="flex flex-wrap justify-center gap-4">
       <li
         v-for="skill in coreSkills"
         :key="skill.name"
-        class="flex flex-col justify-center items-center"
+        :title="skill.name"
+        class="border border-transparent rounded-lg p-2 transition-all"
       >
-        <Icon :icon="skill.icon" class="text-primary text-4xl lg:text-5xl" />
-        <p class="py-4 opacity-80">{{ skill.name }}</p>
+        <Icon
+          :icon="skill.icon"
+          class="text-accentForeground text-4xl lg:text-5xl"
+        />
+        <!-- <p class="py-4 opacity-80">{{ skill.name }}</p> -->
       </li>
     </ul>
   </div>
 </template>
 
 <script setup>
-import coreSkills from '../../data/skills/skills';
-import { Icon } from '@iconify/vue';
+import { Icon } from "@iconify/vue";
+import coreSkills from "../../data/skills/skills";
 </script>
