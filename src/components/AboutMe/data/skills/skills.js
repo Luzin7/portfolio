@@ -12,6 +12,10 @@ const coreSkills = [
     icon: 'teenyicons:nodejs-outline',
   },
   {
+    name: 'Nestjs',
+    icon: 'simple-icons:nestjs',
+  },
+  {
     name: 'SQL',
     icon: 'bi:filetype-sql',
   },
