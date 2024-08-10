@@ -7,9 +7,9 @@
     >
       <button
         type="button"
-        class="border border-primary py-4 px-5 rounded-lg font-medium"
+        class="border border-primary py-4 px-5 rounded-full font-medium bg-accent hover:bg-primary active:scale-95"
       >
-        Entre em contato
+        Entrar em contato
       </button>
     </a>
   </div>

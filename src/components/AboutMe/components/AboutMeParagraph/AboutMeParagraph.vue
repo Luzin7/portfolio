@@ -5,9 +5,9 @@ import RecommendedBooks from "../RecommendedBooks/RecommendedBooks.vue";
 
 <template>
   <div class="xl:grid xl:grid-cols-10 gap-4">
-    <div class="border border-backgroundForeground rounded-lg p-4 col-span-5">
+    <div class="bg-backgroundForeground rounded-lg p-4 col-span-5">
       <h2
-        class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl border-b border-backgroundForeground pb-2"
+        class="scroll-m-20 text-3xl font-extrabold tracking-tight lg:text-5xl border-b border-backgroundForeground pb-2 text-center"
       >
         Caso queira saber...
       </h2>
@@ -28,18 +28,18 @@ import RecommendedBooks from "../RecommendedBooks/RecommendedBooks.vue";
         grandes feitos.
       </p>
       <p class="leading-7 [&:not(:first-child)]:mt-6">
-        Recentemente, decidi iniciar minha jornada na leitura. Agora, estou começando a explorar esse
-        universo, ansioso para descobrir histórias inspiradoras e expandir meus
-        conhecimentos.
+        Recentemente, decidi iniciar minha jornada na leitura. Agora, estou
+        começando a explorar esse universo, ansioso para descobrir histórias
+        inspiradoras e expandir meus conhecimentos.
       </p>
     </div>
     <div class="xl:col-span-5 mt-4 lg:mt-0">
-      <div class="border border-backgroundForeground rounded-lg p-4 mb-4 hidden lg:block">
+      <div class="bg-backgroundForeground rounded-lg p-4 mb-4 hidden lg:block">
         <MyCoreSkills />
       </div>
 
       <div class="md:flex md:flex-col lg:flex-row gap-4">
-        <div class="border border-backgroundForeground rounded-lg p-4">
+        <div class="bg-backgroundForeground rounded-lg p-4">
           <div
             class="flex items-center md:justify-evenly lg:justify-evenly xl:justify-between lg:flex-col gap-8"
           >
@@ -75,7 +75,9 @@ import RecommendedBooks from "../RecommendedBooks/RecommendedBooks.vue";
             </div>
           </div>
         </div>
-        <div class="border border-backgroundForeground rounded-lg p-4 hidden md:block overflow-hidden">
+        <div
+          class="bg-backgroundForeground rounded-lg p-4 hidden md:block overflow-hidden"
+        >
           <h3
             class="scroll-m-20 text-3xl font-semibold tracking-tight transition-colors first:mt-0 border-b border-backgroundForeground pb-2"
           >
