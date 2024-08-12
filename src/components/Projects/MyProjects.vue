@@ -16,36 +16,56 @@
       </p>
     </div>
 
-    <div class="w-2/4 mx-auto">
-      <ul class="grid grid-cols-12 gap-4">
+    <div class="w-11/12 lg:w-3/4 xl:w-2/4 mx-auto">
+      <ul class="flex flex-col md:grid md:grid-cols-12 gap-4">
         <li
-          class="p-4 rounded-xl col-start-1 col-end-7 bg-backgroundForeground"
+          class="p-4 rounded-xl col-start-1 col-end-7 border border-secondary bg-gradient-to-tl from-secondary via-transparent to-transparent"
         >
           <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
             Landing Pages
           </h3>
-          <p class="mt-6">
+          <p class="mt-6 text-textSecondary">
             Impulsione seu alcance e notoriedade criando sites para capturar
             leads e gerar receita para seu produto ou negócio.
           </p>
         </li>
         <li
-          class="p-4 rounded-xl col-start-7 col-end-13 bg-backgroundForeground"
+          class="p-4 rounded-xl col-start-7 col-end-13 border border-secondary bg-gradient-to-tr from-secondary via-transparent to-transparent"
         >
           <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
-            Plataformas ou Sistemas Web
+            Plataformas Web
           </h3>
-          <p class="mt-6">
+          <p class="mt-6 text-textSecondary">
             Tenha uma plataforma totalmente personalizada e otimize seus
             processos.
           </p>
         </li>
         <li
-          class="p-4 rounded-xl col-start-1 col-end-13 bg-backgroundForeground"
+          class="p-4 rounded-xl col-start-1 col-end-5 border border-secondary bg-gradient-to-tl md:bg-gradient-to-b from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">APIs</h3>
+          <p class="mt-6 text-textSecondary">
+            Conecte seu sistema a outras plataformas de maneira segura e
+            eficiente.
+          </p>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-5 col-end-9 border border-secondary bg-gradient-to-tr md:bg-gradient-to-b from-secondary via-transparent to-transparent"
         >
           <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">Suporte</h3>
-          <p class="mt-6">
-            Já tem um serviço no ar e precisa de manutenção? Sem problemas.
+          <p class="mt-6 text-textSecondary">
+            Já possui um serviço no ar e precisa de manutenção? Sem problemas.
+          </p>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-9 col-end-13 border border-secondary bg-gradient-to-tl md:bg-gradient-to-b from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
+            Contratação
+          </h3>
+          <p class="mt-6 text-textSecondary">
+            Procura alguém capacitado para seu time? Fala comigo pelas redes
+            sociais.
           </p>
         </li>
       </ul>
