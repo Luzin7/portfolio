@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="home"
-    class="min-h-screen mx-auto flex flex-col justify-center gap-8"
-  >
+  <section id="home" class="min-h-screen mx-auto flex flex-col justify-center">
     <PresentationComponent />
     <ContactButton />
     <ScrollDownIcon />
