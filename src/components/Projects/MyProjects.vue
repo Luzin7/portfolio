@@ -1,55 +1,74 @@
 <template>
   <section
     id="projects"
-    class="bg-backgroundSecondary flex flex-col justify-center cursor-grab"
+    class="flex flex-col justify-center min-h-screen gap-8"
   >
-  <carousel
-  :items-to-show="1"
-  :wrapAround="true"
-  class=" rounded-lg"
-  >
-  <slide v-for="project in projects" :key="project.name" class="h-[40vh]">
-    <div v-if="project.media !== null" class="h-full w-full relative">
-      <img
-      :src="project.media"
-      class="w-full h-full object-cover blur-sm opacity-10"
-      loading="lazy"
-      :alt="`project ${project.name} screenshot`"
-      />
-      </div>
-      <div
-      class="flex flex-col justify-center items-center absolute gap-4 cursor-default"
+    <div class="mb-8">
+      <h2
+        class="text-3xl md:text-4xl xl:text-5xl text-text font-extrabold text-center"
       >
-      <p class="text-sm font-medium leading-none pb-2 text-textSecondary opacity-50">{{ project.type }}</p>
-          <h1 class="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-            {{ project.name }}
-          </h1>
-          <p
-            class="max-sm:text-sm text-center max-sm:w-3/4 xl:w-2/4 leading-7  cursor-default"
-          >
-            {{ project.description }}
+        Do Que Você Precisa?
+      </h2>
+      <p
+        class="text-textSecondary text-base lg:text-lg text-center mx-auto mt-6"
+      >
+        Posso te oferecer meus principais serviços.
+      </p>
+    </div>
+
+    <div class="w-11/12 lg:w-3/4 xl:w-2/4 mx-auto">
+      <ul class="flex flex-col md:grid md:grid-cols-12 gap-4">
+        <li
+          class="p-4 rounded-xl col-start-1 col-end-7 border border-secondary bg-gradient-to-tl from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
+            Landing Pages
+          </h3>
+          <p class="mt-6 text-textSecondary">
+            Impulsione seu alcance e notoriedade criando sites para capturar
+            leads e gerar receita para seu produto ou negócio.
           </p>
-          <a
-            v-if="project.link !== null"
-            :href="project.link"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="bg-primary hover:bg-accent py-2 px-7 rounded-md font-bold mt-4 transition-all"
-            :aria-label="`Link para acessar o projeto ${project.name}. Confira`"
-          >
-            Confira
-          </a>
-        </div>
-      </slide>
-      <template #addons>
-        <navigation aria-label="Botão de navegação do carrossel"/>
-      </template>
-    </carousel>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-7 col-end-13 border border-secondary bg-gradient-to-tr from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
+            Plataformas Web
+          </h3>
+          <p class="mt-6 text-textSecondary">
+            Tenha uma plataforma totalmente personalizada e otimize seus
+            processos.
+          </p>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-1 col-end-5 border border-secondary bg-gradient-to-tl md:bg-gradient-to-b from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">APIs</h3>
+          <p class="mt-6 text-textSecondary">
+            Conecte seu sistema a outras plataformas de maneira segura e
+            eficiente.
+          </p>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-5 col-end-9 border border-secondary bg-gradient-to-tr md:bg-gradient-to-b from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">Suporte</h3>
+          <p class="mt-6 text-textSecondary">
+            Já possui um serviço no ar e precisa de manutenção? Sem problemas.
+          </p>
+        </li>
+        <li
+          class="p-4 rounded-xl col-start-9 col-end-13 border border-secondary bg-gradient-to-tl md:bg-gradient-to-b from-secondary via-transparent to-transparent"
+        >
+          <h3 class="font-medium text-xl md:text-2xl xl:text-3xl">
+            Contratação
+          </h3>
+          <p class="mt-6 text-textSecondary">
+            Procura alguém capacitado para seu time? Fala comigo pelas redes
+            sociais.
+          </p>
+        </li>
+      </ul>
+    </div>
   </section>
 </template>
-
-<script setup>
-import { Carousel, Navigation, Slide } from 'vue3-carousel';
-import 'vue3-carousel/dist/carousel.css';
-import { projects } from './data/projects/projects';
-</script>
